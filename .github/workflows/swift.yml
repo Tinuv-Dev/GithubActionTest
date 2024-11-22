@@ -18,10 +18,10 @@ jobs:
       uses: actions/checkout@v3
 
     # 2. 设置 Xcode 环境
-    - name: Set up Xcode
-      uses: macos-actions/setup-xcode@v2
-      with:
-        xcode-version: '15.0'  # 或者你需要的具体版本
+    # - name: Set up Xcode
+    #   uses: macos-actions/setup-xcode@v2
+    #   with:
+    #     xcode-version: '15.0'  # 或者你需要的具体版本
 
     # 3. 使用 xcodebuild 编译项目
     - name: Build the project using xcodebuild
