@@ -13,6 +13,8 @@ func downloadFile(from url: String, to destinationPath: String) {
     // 创建一个运行循环控制的标志
     var isFinished = false
     
+    
+    
     let downloadTask = session.downloadTask(with: fileURL) { (tempURL, response, error) in
         if let error = error {
             print("下载失败: \(error.localizedDescription)")

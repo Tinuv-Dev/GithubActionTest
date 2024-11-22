@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,11 +23,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7DE63D1A2CF0653E0092DB42 /* GithubActionTest */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GithubActionTest;
-			sourceTree = "<group>";
-		};
+		7DE63D1A2CF0653E0092DB42 /* GithubActionTest */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GithubActionTest; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +94,7 @@
 				};
 			};
 			buildConfigurationList = 7DE63D132CF0653E0092DB42 /* Build configuration list for PBXProject "GithubActionTest" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,7 +103,6 @@
 			);
 			mainGroup = 7DE63D0F2CF0653E0092DB42;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7DE63D192CF0653E0092DB42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
