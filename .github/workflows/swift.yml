@@ -9,6 +9,13 @@ on:
       - main   # 或者你想要触发 CI 的其他分支
 
 jobs:
+  list-xcode:
+    runs-on: macos-latest
+    steps:
+      - name: List all installed Xcode versions
+        run: |
+          ls /Applications | grep Xcode
+          xcodebuild -version
   build:
     runs-on: macos-latest
 
